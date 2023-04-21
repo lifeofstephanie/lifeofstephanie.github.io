@@ -1,0 +1,69 @@
+.Heading {
+  border: 2px black solid;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: x-large;
+}
+.colors {
+  display: flex;
+  gap: 30px;
+}
+img {
+  width: 900px;
+  height: 600px;
+}
+
+.colors .store {
+  background-color: darkblue;
+  color: white;
+}
+.colors .del {
+  background-color: orange;
+  color: white;
+}
+div select {
+  width: 200px;
+  height: 30px;
+}
+.square1 {
+  width: 50px;
+  height: 50px;
+  border: 2px orange solid;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  color: orange;
+}
+
+.cart {
+  display: flex;
+  gap: 20px;
+}
+section.cart a {
+  text-decoration: none;
+  color: white;
+}
+.square2 {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+.square1:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+.square2:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 768px) {
+  img {
+    width: 400px;
+    height: 400px;
+    margin-left: none;
+  }
+}
